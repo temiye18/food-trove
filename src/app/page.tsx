@@ -1,9 +1,11 @@
-
+import { Container } from "@/ui";
 
 export default function Home() {
   return (
-    <div >
-     <h2>FoodTrove</h2>
-    </div>
+    <section style={{ minHeight: "100vh" }}>
+      <Container>
+        <h1>Home Page</h1>
+      </Container>
+    </section>
   );
 }
